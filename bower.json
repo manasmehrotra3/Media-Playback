@@ -1,0 +1,19 @@
+{
+  "name": "bower.json",
+  "version": "0.0.0",
+  "authors": [
+    "manasmehrotra3 <manasmehrotra3@gmail.com>"
+  ],
+  "description": "Media-Playback",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#~0.4.0"
+  }
+}

@@ -1,0 +1,17 @@
+<!-- Import Polymer -->
+<link rel="import" href="../bower_components/polymer/polymer.html">
+
+<!-- Define your custom element -->
+<polymer-element name="Media-Playback" attributes="who">
+
+    <template>
+        <p>Hi <strong>{{who}}</strong> :)</p>
+    </template>
+
+    <script>
+        Polymer('Media-Playback', {
+            who: 'Default'
+        });
+    </script>
+
+</polymer-element>
