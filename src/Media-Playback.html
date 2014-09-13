@@ -2,15 +2,15 @@
 <link rel="import" href="../bower_components/polymer/polymer.html">
 
 <!-- Define your custom element -->
-<polymer-element name="Media-Playback" attributes="who">
+<polymer-element name="Media-Playback">
 
-    <template>
-        <p>Hi <strong>{{who}}</strong> :)</p>
-    </template>
+    <template>Template</template>
 
     <script>
         Polymer('Media-Playback', {
-            who: 'Default'
+            ready: function() {
+            	alert('ready');
+            }
         });
     </script>
 
