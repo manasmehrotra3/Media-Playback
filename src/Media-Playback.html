@@ -4,12 +4,14 @@
 <!-- Define your custom element -->
 <polymer-element name="Media-Playback">
 
-    <template>Template</template>
+    <template>
+    	<p>{{Text}}</p>
+    </template>
 
     <script>
         Polymer('Media-Playback', {
             ready: function() {
-            	alert('ready');
+            	this.Text = "Okay";
             }
         });
     </script>
